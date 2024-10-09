@@ -1,0 +1,168 @@
+*{
+    font-family: "Azeret Mono", monospace;line-height: 150%;
+}
+
+body{
+    margin: 0;
+    padding: 0px 150px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+p{
+    font: 16px;
+    color: #0D1321;
+}
+
+/* Common Design Start Here */
+.color-blue{
+    color: #0D1321;
+}
+
+.title{
+    font: 32px;
+    color: #0D1321;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.description{
+    font: 16px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.section-start{
+    margin-top: 90px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+/* Header Design Start Here */
+header{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #0D1321;
+    font-weight: 800;
+}
+
+header button{
+    color: #0D1321;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    padding: 17px 24px;
+    font-weight: 600;
+}
+
+/* Hero Section Design Start Here */
+
+.hero{
+    background-image: url(images/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px -150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+
+
+}
+
+.hero-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 900px;
+}
+
+.hero-item h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.hero-item p{
+    text-align: center;
+}
+
+.hero-item button{
+    background-color: #0D1321;
+    color: #fff;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+/* why-web-development-section design Start Here */
+
+.why-web-development-section{
+    background-color:  rgba(13, 19, 33, 0.02);
+    padding: 80px 95px;
+}
+
+.two-side-container{
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    
+}
+
+.left-to-right{
+    background-image: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.right-to-left{
+    background-image: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.text-container{
+    width: 420px;
+}
+
+.text-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.70);
+    margin-bottom: 16px;
+}
+
+.text-container button{
+    margin-top: 32px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid rgba(13, 19, 33, 0.7);
+
+}
+
+
