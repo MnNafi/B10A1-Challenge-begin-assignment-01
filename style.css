@@ -1,7 +1,10 @@
+/* Design for Full website */
 *{
     font-family: "Azeret Mono", monospace;line-height: 150%;
+    scroll-behavior: smooth;
 }
 
+/* General Designs are Here */
 body{
     margin: 0;
     padding: 0px 150px;
@@ -28,7 +31,7 @@ button{
 }
 
 
-/* Custom Class Common Design Start Here */
+/* Custom Class Designs are Here */
 .color-blue{
     color: #0D1321;
 }
@@ -55,9 +58,6 @@ button{
     opacity: 70%;
     font-weight: 400;
 }
-
-
-
 
 .learn-more-dark-a{
     color: #0D1321;
@@ -193,6 +193,16 @@ header button{
 
 }
 
+.image-container{
+    height: 100%;
+}
+
+.image-container img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
 /* Inspire Section Design Start Here */
 .inspire-video{
     border-radius: 16px;
@@ -210,7 +220,7 @@ header button{
     outline: none;
 }
 
-/* Taget Section Design Start Here */
+/*My Current Taget Section Design Start Here */
 /* background Color for Current Target */
 .bg-pink{
     background-color: rgba(255, 76, 30, 0.05);
@@ -269,6 +279,19 @@ header button{
     border: 1px solid rgba(13, 19, 33, 0.15);
 }
 
+.next-image-container{
+    width: 150px;
+    height: 100%;
+}
+
+.next-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
 
 /* Support Section Design Start Here */
 .support-section{
@@ -312,12 +335,14 @@ header button{
     border-radius: 8px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     margin-right: 16px;
+    outline: none;
 
 }
 
 .input-container input::placeholder{
     color: rgba(13, 19, 33, 0.40);
     font-size: 16px;
+    font-weight: 600;
 }
 
 .input-container button{
