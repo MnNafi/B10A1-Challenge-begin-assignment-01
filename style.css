@@ -23,8 +23,12 @@ h3{
     font-size: 24px;
 }
 
+button{
+    cursor: pointer;
+}
 
-/* Common Design Start Here */
+
+/* Custom Class Common Design Start Here */
 .color-blue{
     color: #0D1321;
 }
@@ -49,12 +53,26 @@ h3{
     margin: 0 auto 48px auto;
     width: 850px;
     opacity: 70%;
+    font-weight: 400;
 }
 
 
-button{
-    cursor: pointer;
+
+
+.learn-more-dark-a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
 }
+
+.margin-bottom-8{
+    margin-bottom: 8px;
+}
+
+.margin-bottom-24{
+    margin-bottom: 24px;
+}
+
 
 
 
@@ -234,9 +252,102 @@ header button{
     margin-bottom: 24px;
 }
 
-.target-content a{
-    color: #0D1321;
-    font-size: 16px;
-    font-weight: 700;
+
+/* Next Target Content Design Start Here */
+
+.next-target-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.next-target-content{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
 }
 
+
+/* Support Section Design Start Here */
+.support-section{
+    background-image: url(images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+}
+
+.overlay h1{
+    font-size: 32px;
+    font-weight: 700;
+    color:#FFF;
+}
+
+.overlay p{
+    margin-bottom: 0;
+    width: 600px;
+    color: #FFF;
+}
+
+.input-container input{
+    background-color: #FFF;
+    color: #0D1321;
+    font-size: 16px;
+    padding: 20px;
+    width: 550px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-right: 16px;
+
+}
+
+.input-container input::placeholder{
+    color: rgba(13, 19, 33, 0.40);
+    font-size: 16px;
+}
+
+.input-container button{
+    padding: 17px 20px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFF;
+    border-radius: 8px;
+}
+
+
+/* Footer Design Start Here */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(13, 19, 33, 0.03);
+    height: 100px;
+    margin: 80px -150px 0px -150px;
+    padding: 0px 150px;
+}
+
+footer h3{
+    font-size: 20px;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
