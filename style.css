@@ -12,17 +12,29 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 p{
-    font: 16px;
+    font-size: 16px;
     color: #0D1321;
+    opacity: 70%;
 }
+
+h3{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 24px;
+}
+
 
 /* Common Design Start Here */
 .color-blue{
     color: #0D1321;
 }
 
+.section-start{
+    margin-top: 90px;
+}
+
 .title{
-    font: 32px;
+    font-size: 32px;
     color: #0D1321;
     text-align: center;
     font-weight: 800;
@@ -31,16 +43,14 @@ p{
 }
 
 .description{
-    font: 16px;
+    font-size: 16px;
     color: #0D1321;
     text-align: center;
-    margin-bottom: 48px;
+    margin: 0 auto 48px auto;
+    width: 850px;
+    opacity: 70%;
 }
 
-
-.section-start{
-    margin-top: 90px;
-}
 
 button{
     cursor: pointer;
@@ -133,6 +143,7 @@ header button{
     align-items: center;
     margin-bottom: 32px;
     border-radius: 16px;
+    height: 336px;
     
 }
 
@@ -149,7 +160,6 @@ header button{
 }
 
 .text-container h3{
-    font-size: 24px;
     font-weight: 700;
     color: rgba(13, 19, 33, 0.70);
     margin-bottom: 16px;
@@ -165,4 +175,68 @@ header button{
 
 }
 
+/* Inspire Section Design Start Here */
+.inspire-video{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+    height: 650px;
+    padding: 48px;
+}
+
+.inspire-video iframe{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+
+/* Taget Section Design Start Here */
+/* background Color for Current Target */
+.bg-pink{
+    background-color: rgba(255, 76, 30, 0.05);
+    ;
+}
+
+.bg-aqua{
+    background-color: rgba(0, 76, 232, 0.05);
+    ;
+}
+
+.bg-biscuit{
+    background-color: rgba(255, 223, 0, 0.05);
+    ;
+}
+
+.target-container{
+    display: flex;
+    gap: 24px;
+}
+
+.target-content{
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.target-content img{
+    height: 56px;
+    width: 56px;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.target-content h3{
+    margin-bottom: 8px;
+}
+
+.target-content p{
+    margin-bottom: 24px;
+}
+
+.target-content a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 700;
+}
 
